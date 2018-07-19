@@ -1,0 +1,8 @@
+let input = prompt ('Please enter a number', '');
+	for (let i = 2; i<=input; i++){
+		for (let j =2; j<=i; j++){
+		if (i%j == 0 && i !=j) break;
+		else if (j == i) {alert (j);
+		} else continue;
+	}
+}
